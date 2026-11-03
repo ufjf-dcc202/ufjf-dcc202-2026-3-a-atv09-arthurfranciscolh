@@ -12,5 +12,10 @@ main {
 main > article {
     border: 1px solid red;
     resize: both;
-    overflow: scroll;
+    overflow: auto;
+}
+
+h1{
+    background-color: black;
+    color: white;
 }

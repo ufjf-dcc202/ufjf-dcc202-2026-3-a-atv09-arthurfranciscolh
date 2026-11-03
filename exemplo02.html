@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCC202 Exemplo 02</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul > li {
+            border: 1px solid green;
+            background-color: lightgreen;
+        }
+        .desconstructed-pancake {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .desconstructed-pancake > * {
+            flex: 1 1 120px;
+        }
+        </style>
+
+</head>
+<body>
+    <main>
+        <article>
+            <ul class="desconstructed-pancake">
+                <li>Alvinho</li>
+                <li>Alvão</li>
+                <li>José</li>
+                <li>Filhinho</li>
+            </ul>
+        </article>
+    </main>
+</body>
+</html>
